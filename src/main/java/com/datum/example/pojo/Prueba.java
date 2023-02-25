@@ -13,7 +13,7 @@ public class Prueba {
 	private String variable1 = System.getenv("VARIABLE_ENTORNO_1");	
 	private String variable2 = System.getenv("VARIABLE_ENTORNO_2");
 	
-	public static final String MENSAJE = "La suma es, %s!";
+	public static final String FORMAT = "La suma es, %s!";
 	
 	// CONSTRUCTORES	
 	public Prueba() {
@@ -24,11 +24,7 @@ public class Prueba {
 		this.suma = sumando1 + sumando2;
 	}
 	
-	// GET
-	public String getMENSAJE() {
-		return MENSAJE;
-	}
-	
+	// GET	
 	public int getSuma() {
 		return suma;
 	}
