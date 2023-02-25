@@ -15,6 +15,18 @@ public class Prueba {
 	
 	public static final String FORMAT = "La suma es, %s!";
 	
+	private String x1;
+	private String x2;
+	private String x3;
+	private String x4;
+	private String x5;
+	private String x6;
+	private String x7;
+	
+	
+	public String SUPEEEEERRRRRR = "Prueba";
+	
+	
 	// CONSTRUCTORES	
 	public Prueba() {
         this.suma = 0;
