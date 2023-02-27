@@ -12,6 +12,7 @@ public class Prueba {
 	private int suma;
 	private String variable1 = System.getenv("VARIABLE_ENTORNO_1");	
 	private String variable2 = System.getenv("VARIABLE_ENTORNO_2");
+	private String variable3 = System.getenv("JAVA_HOME");
 	
 	public static final String FORMAT = "La suma es, %s!";
 	
@@ -22,6 +23,11 @@ public class Prueba {
 	private String x5;
 	private String x6;
 	private String x7;
+	
+	
+	/*for(int i = 0; i<20; i++) {
+		System.out.println("Hola Mundo");
+	}*/
 	
 	
 	public String SUPEEEEERRRRRR = "Prueba";
@@ -55,5 +61,11 @@ public class Prueba {
 	}
 	public void setVariable2(String variable2) {
 		this.variable2 = variable2;
+	}
+	public String getVariable3() {
+		return variable3;
+	}
+	public void setVariable3(String variable3) {
+		this.variable3 = variable3;
 	}
 }
