@@ -14,17 +14,7 @@ public class Prueba {
 	private String variable2 = System.getenv("VARIABLE_ENTORNO_2");
 	private String variable3 = System.getenv("JAVA_HOME");
 	
-	public static final String FORMAT = "La suma es, %s!";
-	
-	private String x1;
-	private String x2;
-	private String x3;
-	private String x4;
-	private String x5;
-	private String x6;
-	private String x7;
-	private String x8;
-	
+	public static final String FORMAT = "La suma es, %s!";	
 	
 	/*for(int i = 0; i<20; i++) {
 		System.out.println("Hola Mundo");
