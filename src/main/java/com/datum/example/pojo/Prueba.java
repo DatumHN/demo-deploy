@@ -8,6 +8,17 @@ public class Prueba {
 		
 		public static final String FORMAT = "La suma es, %s!";	
 		
+		public String FORMAT2 = "La suma es, %s!";	
+		public String FORMAT3 = "La suma es, %s!";	
+		public String FORMAT4 = "La suma es, %s!";	
+		public String FORMAT5 = "La suma es, %s!";	
+		public String FORMAT6 = "La suma es, %s!";	
+		
+		/*for(int i = 0; i<20; i++) {
+		System.out.println("Hola Mundo");
+		}*/
+	
+		
 		
 		// CONSTRUCTORES	
 		public Prueba() {
