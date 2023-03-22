@@ -25,6 +25,7 @@ import com.datum.example.pojo.Greeting;
 public abstract class AbstractExampleApplicationTest {
 
     private static final String GREETING_PATH = "api/greeting";
+    private static final String PRUEBA_PATH = "api/prueba?sumando1=22&sumando2=5";
 
     @Test
     public void testGreetingEndpoint() {
@@ -46,6 +47,17 @@ public abstract class AbstractExampleApplicationTest {
            .then()
            .statusCode(200)
            .body("content", is(String.format(Greeting.FORMAT, "John")));
+    }
+    
+    @Test
+    public void testPruebaEndpointWithNameParameter() {
+        given()
+           .baseUri(baseURI())
+           .when()
+           .get(PRUEBA_PATH)
+           .then()
+           .statusCode(200)
+           .body("suma", is(27));
     }
     
     protected abstract String baseURI();
