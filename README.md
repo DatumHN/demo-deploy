@@ -71,7 +71,7 @@ git clone --branch dev http://xxxxxxxxxx/admin-templates/templates-projects.git
 [Lineamientos de Base Datos]-
 Las configuraciones de conexion a base de datos deben quedar definidas en variables de ambientes dentro del pod que se crea al momento de desplegar la aplicación dentro de la plataforma de Openshift.
 
-[//]:# (Área para colocar los links y referencias a ser utilizadas)
+[//]:# (Área para colocar los links y referencias a ser utilizadas) 
 
 [GitLab]: <http://xxxxxxxxxxxxx/>
 [SonarQube]: <https://sonarqube-xxxxxxxxxxxx/>
